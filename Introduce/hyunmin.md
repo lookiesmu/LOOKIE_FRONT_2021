@@ -4,7 +4,7 @@
 [![Facebook](https://img.shields.io/badge/Facebook-1877F2?style=round-square&logo=Facebook&logoColor=white&link=https://www.facebook.com/profile.php?id=100031649032539)](https://www.facebook.com/profile.php?id=100031649032539)
 [![Github](https://img.shields.io/badge/Github-181717?style=round-square&logo=Github&logoColor=white&link=https://github.com/hyunmin0317)](https://github.com/hyunmin0317)
 
-## :computer: Carrer
+
 
 * ### 자기소개 :computer:
 
