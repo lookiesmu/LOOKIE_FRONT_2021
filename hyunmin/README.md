@@ -1,6 +1,6 @@
 # LOOKIE_FRONT_2021
 
-### `LOOKIE FRONT 2조 최현민`
+### `LOOKIE FRONT 2조 최현민 과제`
 
 ---
 
