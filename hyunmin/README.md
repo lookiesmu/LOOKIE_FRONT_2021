@@ -4,8 +4,6 @@
 
 ---
 
-<br>
-
 ### [01 Kotlin에 대해서 알아보자.](https://github.com/hyunmin0317/LOOKIE_FRONT_2021/blob/master/hyunmin/week01/week01.md)
 
 ### 02 안드로이드 UI 및 Git 실습
