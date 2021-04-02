@@ -4,7 +4,7 @@
 [![Facebook](https://img.shields.io/badge/Facebook-1877F2?style=round-square&logo=Facebook&logoColor=white&link=https://www.facebook.com/profile.php?id=100031649032539)](https://www.facebook.com/profile.php?id=100031649032539)
 [![Github](https://img.shields.io/badge/Github-181717?style=round-square&logo=Github&logoColor=white&link=https://github.com/hyunmin0317)](https://github.com/hyunmin0317)
 
-
+<br>
 
 * ### 자기소개 :computer:
 
@@ -24,5 +24,20 @@
 
   #### 감사합니다. :smile:
 
+<br>
 
+* ### 과제
 
+  * ### [Week 01 Kotlin에 대해서 알아보자.](https://github.com/hyunmin0317/LOOKIE_FRONT_2021/blob/master/hyunmin/week01/week01.md)
+
+  * ### Week 02 안드로이드 UI 및 Git 실습
+
+  * ### Week 03 안드로이드 액티비티 및 Intent 실습
+
+  * ### Week 04 안드로이드 Fragment 실습
+
+  * ### Week 05 안드로이드 RecyclerView 실습
+
+  * ### Week 06 안드로이드 Network 실습
+
+  * ### Week 07 OkHttp()에 대하여 알아보자.
