@@ -16,30 +16,30 @@
 
 ### 2. Kotlin의 기본 문법을 정리해보자.
 
-#### [01. 변수]
+#### [01. 변수](https://github.com/hyunmin0317/LOOKIE_FRONT_2021/blob/master/hyunmin/week01/Kotlin_BasicSyntax/chap02-01.md)
 
-#### [02. 자료형]
+#### [02. 자료형](https://github.com/hyunmin0317/LOOKIE_FRONT_2021/blob/master/hyunmin/week01/Kotlin_BasicSyntax/chap02-02.md)
 
-#### [03. 함수]
+#### [03. 함수](https://github.com/hyunmin0317/LOOKIE_FRONT_2021/blob/master/hyunmin/week01/Kotlin_BasicSyntax/chap02-03.md)
 
-#### [04. 연산자]
+#### [04. 연산자](https://github.com/hyunmin0317/LOOKIE_FRONT_2021/blob/master/hyunmin/week01/Kotlin_BasicSyntax/chap02-04.md)
 
-#### [05. 제어 흐름 (분기문)]
+#### [05. 제어 흐름 (분기문)](https://github.com/hyunmin0317/LOOKIE_FRONT_2021/blob/master/hyunmin/week01/Kotlin_BasicSyntax/chap02-05.md)
 
-#### [06. 배열]
+#### [06. 배열](https://github.com/hyunmin0317/LOOKIE_FRONT_2021/blob/master/hyunmin/week01/Kotlin_BasicSyntax/chap02-06.md)
 
-#### [07. Collection]
+#### [07. Collection](https://github.com/hyunmin0317/LOOKIE_FRONT_2021/blob/master/hyunmin/week01/Kotlin_BasicSyntax/chap02-07.md)
 
-#### [08. 반복문]
+#### [08. 반복문](https://github.com/hyunmin0317/LOOKIE_FRONT_2021/blob/master/hyunmin/week01/Kotlin_BasicSyntax/chap02-08.md)
 
-#### [09. Class]
+#### [09. Class](https://github.com/hyunmin0317/LOOKIE_FRONT_2021/blob/master/hyunmin/week01/Kotlin_BasicSyntax/chap02-09.md)
 
-#### [10.변수의 접근 범위]
+#### [10.변수의 접근 범위](https://github.com/hyunmin0317/LOOKIE_FRONT_2021/blob/master/hyunmin/week01/Kotlin_BasicSyntax/chap02-10.md)
 
-#### [11. 접근 제어자]
+#### [11. 접근 제어자](https://github.com/hyunmin0317/LOOKIE_FRONT_2021/blob/master/hyunmin/week01/Kotlin_BasicSyntax/chap02-11.md)
 
-#### [12. 상속]
+#### [12. 상속](https://github.com/hyunmin0317/LOOKIE_FRONT_2021/blob/master/hyunmin/week01/Kotlin_BasicSyntax/chap02-12.md)
 
-#### [13.Interface]
+#### [13.Interface](https://github.com/hyunmin0317/LOOKIE_FRONT_2021/blob/master/hyunmin/week01/Kotlin_BasicSyntax/chap02-13.md)
 
-#### [14. 제네릭]
+#### [14. 제네릭](https://github.com/hyunmin0317/LOOKIE_FRONT_2021/blob/master/hyunmin/week01/Kotlin_BasicSyntax/chap02-14.md)
