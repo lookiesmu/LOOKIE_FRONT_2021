@@ -12,6 +12,7 @@
     * val -> 한번 넣으면 바꿀 수 없는 상자
     * var/val 변수명 = 값
     * var/val 변수명 : 자료형 = 값
+    * 전역변수 / 지역변수
  * 자료형
     * 정수형 -> Long > Int > Short > Byte
     * 실수형 -> Double > Float
@@ -62,15 +63,38 @@
       2. replace(key, value)
       3. clear()
  * 반복문
-      * 반복하는 방법
-        1. for(item in a) { }
-        2.  for((index, item) in a.withIndex()) { } - index와 같이 알고 싶을 때
-        3. a.forEach { }
-        4. a.forEach {item-> }
-        5. a.forEachIndexed{index, item-> } - index와 같이 알고 싶을 때
-        6. for(i in 0 until 9) -> 0부터 8까지
-        7. for(i in 0 until 8 step(2)) -> 0부터 8까지 index 2씩 건너뛰기
-        8. for(i in 8 downTo 0) -> 8부터 0까지
-        9. for(i in 0..10) -> 0부터 10까지  
-
-  
+    * 반복하는 방법
+      1. for(item in a) { }
+      2.  for((index, item) in a.withIndex()) { } - index와 같이 알고 싶을 때
+      3. a.forEach { }
+      4. a.forEach {item-> }
+      5. a.forEachIndexed{index, item-> } - index와 같이 알고 싶을 때
+      6. for(i in 0 until 9) -> 0부터 8까지
+      7. for(i in 0 until 8 step(2)) -> 0부터 8까지 index 2씩 건너뛰기
+      8. for(i in 8 downTo 0) -> 8부터 0까지
+      9. for(i in 0..10) -> 0부터 10까지  
+ * class
+    * OOP -> Object Oriented Programing (객체지향 프로그래밍)
+    * "객체"란? -> 이름이 있는 모든 것
+    * 객체를 만드는 방법: 설명서를 만든다 (class) = 인스턴스화
+    * 직접 만든 클래스는 자료형이 된다
+    * 클래스 내 멤버 변수의 이름은 같을 수 없다
+    * 클래스 내 함수의 이름은 같을 수 있다 (파라미터가 다르다면 구분 가능) = 오버로딩
+    * constructor -> 생성자
+    * init -> 클래스가 인스턴스 될 때 가장 먼저 호출
+    * 체이닝 -> 자신의 클래스를 return해서 fun을 이어나가는 것
+    * set(value) -> 클래스 내 변수 아래에서 실행 -> 변수에 값이 할당될 때
+    * get() -> 클래스 내 변수 아래에서 실행 -> 변수가 호출될 때
+    * field -> set/get에서 무한루프를 피할 수 있는 키워드
+ * 접근제어자
+    * private -> 외부와 내부를 단절시키는 역할
+    * private fun -> 외부에 공개되지 않고 기능을 보조하는 함수로 사용
+    * 초기범위 선언은 최소한으로 설정 (private, val)
+ * 상속
+    * 부모로부터 설명서를 물려받는다 = 외부접근
+    * class는 초기 기본값이 private이다 -> "open" 키워드
+    * 자식 클래스():부모클래스() { }
+    * 함수 상속 : 우클릭 -> Generate
+    * 자식 클래스는 부모 클래스 타입이다
+    * 하지만, 부모 클래스는 자식 클래스 타입은 아니다
+    * ex) supercar는 car이지만, car는 supercar가 아니다
