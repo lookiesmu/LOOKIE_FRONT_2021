@@ -26,3 +26,16 @@
  * "@"-> 경로 의미
  * 같은 이미지를 해상도에 따라 여러 세트로 준비
  * scaleType="centerCrop" -> 비율 유지하면서 맞추기 (짤리는 부분 존재 가능)
+10. draw 내부 이미지 직접 만들기
+ * shape
+    * 그라데이션
+    * centerColor -> 가운데 색삭 지정
+    * endColor -> 마지막 색상 지정
+    * startColor -> 처음 색상 지정
+    * angle -> 각도 조절
+ * strock
+    * 가운데가 뚫린 사각형
+    * width="" -> 선 두께 지정
+ * solid
+    * 면
+    * corners - radius -> 둥근 모서리
