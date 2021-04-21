@@ -10,6 +10,4 @@
 
 2. 자신의 취향 or 친한친구가 담긴 Image를 등록하고 Scroll 하여 Image를 볼 수 있도록 만들기
 
-3. Git Hub 2021 Lookie Front 를 fork 해서 자신의 레포지토리에 push해보기
-
-4. build 한 화면 캡쳐해서 issue에 올리기
+3. <img width="30%" src="./assignments/week2.gif"/>
