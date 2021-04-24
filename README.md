@@ -2,7 +2,7 @@
 ### Week 1) Kotlin에 대해서 알아보자. (~ 04.06.(화)까지)
 
 1. [Kotlin](./assignments/1.md)
-2. [자기소개](./introduce/임혁.md)
+2. [자기소개](./Introduce/임혁.md)
 
 ### Week 2) 안드로이드 UI 및 Git 실습 (~ 04.25.(일)까지)
 
