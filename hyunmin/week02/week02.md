@@ -8,10 +8,10 @@
 
   * ### result01
   
-    ![result01](https://github.com/hyunmin0317/LOOKIE_FRONT_2021/blob/master/hyunmin/week02/result/result01.PNG?raw=true)
+    ![result01](https://github.com/hyunmin0317/LOOKIE_FRONT_2021/blob/master/hyunmin/week02/homework/result/result01.PNG?raw=true)
     
   * ### result02
   
-    ![result02](https://github.com/hyunmin0317/LOOKIE_FRONT_2021/blob/master/hyunmin/week02/result/result02.PNG?raw=true)
+    ![result02](https://github.com/hyunmin0317/LOOKIE_FRONT_2021/blob/master/hyunmin/week02/homework/result/result02.PNG?raw=true)
     
     
