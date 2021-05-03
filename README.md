@@ -11,3 +11,6 @@
 2. 자신의 취향 or 친한친구가 담긴 Image를 등록하고 Scroll 하여 Image를 볼 수 있도록 만들기
 
 3. <img width="30%" src="./assignments/week2.gif"/>
+
+### Week 3) 안드로이드 액티비티 및 Intent 실습 (~ 05.02.(일)까지)
+1. <img width="30%" src="./assignments/week3.gif"/>
