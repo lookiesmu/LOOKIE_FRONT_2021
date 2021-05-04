@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MainActivity"
+        android:textSize="35dp"
+        android:layout_margin="20dp"
+        android:textStyle="bold"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:id="@+id/ButtonA"
+        android:layout_margin="7dp"
+        android:text="AActivity"
+        android:textColor="@color/black"
+        android:textSize="13dp"
+        android:textStyle="bold"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:backgroundTint="#A5D6A7"
+        android:layout_gravity="center|center_horizontal"/>
+
+    <Button
+        android:id="@+id/ButtonB"
+        android:layout_margin="7dp"
+        android:text="BActivity"
+        android:textColor="@color/black"
+        android:textSize="13dp"
+        android:textStyle="bold"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:backgroundTint="#A5D6A7"
+        android:layout_gravity="center|center_horizontal"/>
+
+    <Button
+        android:id="@+id/ButtonC"
+        android:layout_margin="7dp"
+        android:text="CActivity"
+        android:textColor="@color/black"
+        android:textSize="13dp"
+        android:textStyle="bold"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:backgroundTint="#A5D6A7"
+        android:layout_gravity="center|center_horizontal"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Click Button"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:background="#E6EE9C"
+        android:padding="10dp"
+        android:layout_margin="7dp"
+        android:layout_gravity="center"/>
+
+
+</LinearLayout>
