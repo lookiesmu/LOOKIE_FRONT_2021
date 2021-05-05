@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:padding="8dp"
+        android:background="#000000">
+
+        <ImageView
+            android:layout_height="40dp"
+            android:layout_width="40dp"
+            android:src="@drawable/youtube"
+            android:layout_marginRight="3dp"/>
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:text="MyTube"
+                android:layout_gravity="center_vertical"/>
+
+    </LinearLayout>
+
+
+    <ScrollView
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:background="#2B2A2A">
+
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent">
+
+
+                <FrameLayout
+                    android:layout_height="250dp"
+                    android:layout_width="match_parent"
+                    android:padding="12dp">
+
+                    <ImageView
+                        android:layout_height="match_parent"
+                        android:layout_width="match_parent"
+                        android:src="@drawable/dd"
+                        android:scaleType="centerCrop"/>
+
+                    <TextView
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:padding="8dp"
+                        android:background="#0C0C0C"
+                        android:textColor="#ffffff"
+                        android:text="10:10"
+                        android:layout_gravity="right|bottom"
+                        android:layout_margin="8dp"/>
+
+                </FrameLayout>
+
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:padding="8dp"
+                    android:gravity="center_vertical">
+
+                    <ImageView
+                        android:layout_height="30dp"
+                        android:layout_width="30dp"
+                        android:src="@drawable/boy"
+                        android:layout_marginRight="16dp"/>
+
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_height="wrap_content"
+                        android:layout_width="match_parent">
+
+                        <TextView
+                            android:layout_height="wrap_content"
+                            android:layout_width="wrap_content"
+                            android:textColor="#ffffff"
+                            android:textStyle="bold"
+                            android:text="제목입니다"/>
+
+                        <TextView
+                            android:layout_height="wrap_content"
+                            android:layout_width="wrap_content"
+                            android:textColor="#ffffff"
+                            android:text="부제입니다"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent">
+
+
+                <FrameLayout
+                    android:layout_height="250dp"
+                    android:layout_width="match_parent"
+                    android:padding="12dp">
+
+                    <ImageView
+                        android:layout_height="match_parent"
+                        android:layout_width="match_parent"
+                        android:src="@drawable/dd"
+                        android:scaleType="centerCrop"/>
+
+                    <TextView
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:padding="8dp"
+                        android:background="#0C0C0C"
+                        android:textColor="#ffffff"
+                        android:text="10:10"
+                        android:layout_gravity="right|bottom"
+                        android:layout_margin="8dp"/>
+
+                </FrameLayout>
+
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:padding="8dp"
+                    android:gravity="center_vertical">
+
+                    <ImageView
+                        android:layout_height="30dp"
+                        android:layout_width="30dp"
+                        android:src="@drawable/boy"
+                        android:layout_marginRight="16dp"/>
+
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_height="wrap_content"
+                        android:layout_width="match_parent">
+
+                        <TextView
+                            android:layout_height="wrap_content"
+                            android:layout_width="wrap_content"
+                            android:textColor="#ffffff"
+                            android:textStyle="bold"
+                            android:text="제목입니다"/>
+
+                        <TextView
+                            android:layout_height="wrap_content"
+                            android:layout_width="wrap_content"
+                            android:textColor="#ffffff"
+                            android:text="부제입니다"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent">
+
+
+                <FrameLayout
+                    android:layout_height="250dp"
+                    android:layout_width="match_parent"
+                    android:padding="12dp">
+
+                    <ImageView
+                        android:layout_height="match_parent"
+                        android:layout_width="match_parent"
+                        android:src="@drawable/dd"
+                        android:scaleType="centerCrop"/>
+
+                    <TextView
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:padding="8dp"
+                        android:background="#0C0C0C"
+                        android:textColor="#ffffff"
+                        android:text="10:10"
+                        android:layout_gravity="right|bottom"
+                        android:layout_margin="8dp"/>
+
+                </FrameLayout>
+
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:padding="8dp"
+                    android:gravity="center_vertical">
+
+                    <ImageView
+                        android:layout_height="30dp"
+                        android:layout_width="30dp"
+                        android:src="@drawable/boy"
+                        android:layout_marginRight="16dp"/>
+
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_height="wrap_content"
+                        android:layout_width="match_parent">
+
+                        <TextView
+                            android:layout_height="wrap_content"
+                            android:layout_width="wrap_content"
+                            android:textColor="#ffffff"
+                            android:textStyle="bold"
+                            android:text="제목입니다"/>
+
+                        <TextView
+                            android:layout_height="wrap_content"
+                            android:layout_width="wrap_content"
+                            android:textColor="#ffffff"
+                            android:text="부제입니다"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent">
+
+
+                <FrameLayout
+                    android:layout_height="250dp"
+                    android:layout_width="match_parent"
+                    android:padding="12dp">
+
+                    <ImageView
+                        android:layout_height="match_parent"
+                        android:layout_width="match_parent"
+                        android:src="@drawable/dd"
+                        android:scaleType="centerCrop"/>
+
+                    <TextView
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:padding="8dp"
+                        android:background="#0C0C0C"
+                        android:textColor="#ffffff"
+                        android:text="10:10"
+                        android:layout_gravity="right|bottom"
+                        android:layout_margin="8dp"/>
+
+                </FrameLayout>
+
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:padding="8dp"
+                    android:gravity="center_vertical">
+
+                    <ImageView
+                        android:layout_height="30dp"
+                        android:layout_width="30dp"
+                        android:src="@drawable/boy"
+                        android:layout_marginRight="16dp"/>
+
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_height="wrap_content"
+                        android:layout_width="match_parent">
+
+                        <TextView
+                            android:layout_height="wrap_content"
+                            android:layout_width="wrap_content"
+                            android:textColor="#ffffff"
+                            android:textStyle="bold"
+                            android:text="제목입니다"/>
+
+                        <TextView
+                            android:layout_height="wrap_content"
+                            android:layout_width="wrap_content"
+                            android:textColor="#ffffff"
+                            android:text="부제입니다"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
