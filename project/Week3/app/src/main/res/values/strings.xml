@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Week3</string>
+    <string name="b">B</string>
+    <string name="a">A</string>
+    <string name="c">C</string>
+    <string name="goBack">뒤로가기</string>
+    <string name="activity_a">ActivityA</string>
+    <string name="activity_b">ActivityB</string>
+    <string name="activity_c">ActivityC</string>
+</resources>
