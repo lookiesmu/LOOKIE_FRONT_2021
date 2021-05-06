@@ -8,7 +8,7 @@
 
 ### [02 안드로이드 UI 및 Git 실습](https://github.com/hyunmin0317/LOOKIE_FRONT_2021/blob/master/hyunmin/week02/week02.md)
 
-### 03 안드로이드 액티비티 및 Intent 실습
+### [03 안드로이드 액티비티 및 Intent 실습](https://github.com/hyunmin0317/LOOKIE_FRONT_2021/blob/master/hyunmin/week03/week03.md)
 
 ### 04 안드로이드 Fragment 실습
 
