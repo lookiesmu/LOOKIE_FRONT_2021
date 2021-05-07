@@ -1,0 +1,32 @@
+
+//Fragment
+
+// - activity -> 앱에 보이는 한 화면의 단위
+
+    //activity가 가지고 있는 문제
+    // - ex
+// - 파트1, 2, 3, 4, 5, 6  -> activity 하나가 굉장히 길어질 수 가 있다
+// - activity가 길어지면 관리포인트가 많아진다 = 관리가 어려워진다
+
+    //다양한 디바이스로 인한 문제
+    // - ex
+// - 안드로이드는 디바이스가 너무 다양하다
+// - 안드로이드에는 핸드폰만 있는것이 아니다 -> 테블릿이 있다!
+// - 태블릿은 태블릿에 맞는 UI를 제공해야 한다.
+
+// 즉, fragment는
+// 사용처
+    // activity의 파트를 나누어서 책임진다.
+
+
+// Fragment
+// 라이프 사이클이 존재한다.
+// activity에 종속적이다. (activity 종료 = fragment 종료)
+
+// 사용방법
+// - xml에 ViewComponent로 추가한다.
+// - 코드로 (동적)으로 추가한다.
+
+// 데이터 전달 방법
+// - activity 에서 fragment : argument와 bundle 이용
+// - fragment 에서 activity : 자체 구현 (리스너 구현)
