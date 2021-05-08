@@ -10,7 +10,7 @@
 
 ### [03 안드로이드 액티비티 및 Intent 실습](https://github.com/hyunmin0317/LOOKIE_FRONT_2021/blob/master/hyunmin/week03/week03.md)
 
-### 04 안드로이드 Fragment 실습
+### [04 안드로이드 Fragment 실습](https://github.com/hyunmin0317/LOOKIE_FRONT_2021/blob/master/hyunmin/week04/week04.md)
 
 ### 05 안드로이드 RecyclerView 실습
 

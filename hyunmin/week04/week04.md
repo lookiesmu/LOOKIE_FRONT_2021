@@ -16,5 +16,5 @@
 
 ## Result
 
-![result]
+![result](https://github.com/hyunmin0317/LOOKIE_FRONT_2021/blob/master/hyunmin/week04/homework/result.gif?raw=true)
 
