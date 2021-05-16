@@ -1,17 +1,18 @@
 package com.example.myapplication4
 
+import android.app.Activity
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.text.Layout
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
-import androidx.appcompat.app.AppCompatViewInflater
 import androidx.appcompat.view.menu.ActionMenuItemView
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import kotlinx.android.synthetic.main.activity_phone_book_with_recycler_view.*
+import kotlinx.android.synthetic.main.phonebook_item.*
 
 class PhoneBookWithRecyclerViewActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -19,7 +20,11 @@ class PhoneBookWithRecyclerViewActivity : AppCompatActivity() {
         setContentView(R.layout.activity_phone_book_with_recycler_view)
 
         val phoneBook=creatFakePhoneBook(faskNumber = 30)
-        val phoneBookRecyclerAdapter=PhoneBookRecyclerAdapter(phoneBook, LayoutInflater.from(this@PhoneBookWithRecyclerViewActivity))
+        val phoneBookRecyclerAdapter=PhoneBookRecyclerAdapter(
+            phonebookList=phoneBook,
+            inflater=LayoutInflater.from(this@PhoneBookWithRecyclerViewActivity),
+            activity =this
+        )
         phonebook_recyclerview.adapter=phoneBookRecyclerAdapter
         phonebook_recyclerview.layoutManager=LinearLayoutManager(this@PhoneBookWithRecyclerViewActivity)
 
@@ -40,12 +45,19 @@ class PhoneBookWithRecyclerViewActivity : AppCompatActivity() {
 
 class PhoneBookRecyclerAdapter(
     val phonebookList:PhoneBook,
-    val inflater: LayoutInflater
+    val inflater: LayoutInflater,
+    val activity: Activity
 ): RecyclerView.Adapter<PhoneBookRecyclerAdapter.ViewHolder>(){
     inner class ViewHolder(itemView: View):RecyclerView.ViewHolder(itemView){
         val personName:TextView
         init{
             personName=itemView.findViewById(R.id.person_name)
+            itemView.setOnClickListener{
+                val intent= Intent(activity, PhoneBookDetailActivity::class.java)
+                intent.putExtra("name", phonebookList.personList.get(adapterPosition).name)
+                intent.putExtra("number", phonebookList.personList.get(adapterPosition).name)
+                activity.startActivity(intent) //activity를 이용해 startactivity
+            }
         }
     }
 
