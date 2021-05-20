@@ -1,49 +1,114 @@
-# Week 05 안드로이드 RecyclerView 실습
+# Week 05 안드로이드 Network 실습
 
-2021.05.15 - 201911019 최현민
+2021.05.22 - 201911019 최현민
 
 <br>
 
 ## 과제 설명
 
-1. 패스트 캠퍼스 05 Essential 50강까지 수강(Tablayout, Pager까지)
+1. 패스트 캠퍼스 05 Essential 69강까지 수강
+2. 패스트 캠퍼스 강의 내에 있는 Network 61~67강 실습 화면 캡쳐 및 강의 내용 정리 Issue 에 올리기
 
-2. 나만의 여름방학 계획표 작성하기
+- 안드로이드 네트워크 관련 개념
 
-   - 기능 1. Recycler View 로 계획표 날짜, 내용이 보이도록 함
+<br>
 
-   - 기능 2. 새로운 계획을 추가할 수 있도록 함
+## 안드로이드 네트워크
 
-   - class file 3개 (main, plan, planAdapter), XML file 3개 (main, planview, dialogview)
+* 네트워크 -> 통신
 
-     ```
-       class | main: (-)
-               plan: 계획의 정보 (날짜, 내용)을 담을 클래스
-               planAdapter: main의 RecyclerView에 장착할 CustomAdapter
-       XML   | main: Button 1개,RecyclerView 1개
-               planview: TextView 2개 (날짜, 내용)
-               dialogview: EditText 3개 (날짜, 내용)
-     ```
+* 통신 과정
 
-   - 설명 :
+  DataBase <-----> Server <------> Client(app,web,...)
+       글                               					  A
+       댓글                               				  B
 
-     ```
-       main화면의 Button 클릭 시 Dialog 보여진다.
-       Dialog내에서 2개의 값 입력후 추가 버튼 클릭 시 main화면에 해당 계획정보가 추가되고 Dialog가 종료된다.
-       취소 버튼 클릭 시 아무런 동작없이 Dialog가 종료된다.
-     ```
+* Local DataBase 의 한계
 
-   - 조건 :
+  * 동기화가 어렵다
+  * 상호작용이 불가능 하다
 
-     ```
-       계획 정보는 항상 리스트의 가장 위에 추가된다. Dialog의 editText값들이 채워지지 않은 경우는 고려하지 않는다.(예외처리 필요없음)
-     ```
+* 서버와 통신하는 방법
 
-- Dialog가 어려운 경우 https://juyeop.tistory.com/7 사이트 참고하여 기능을 구현해도 됩니다.
+  * 해당 url로 요청한다
+  * 인증정보를 보낸다
+  * JSON 형식을 사용해서 data를 보낸다
+  * JavaScript Object Notation -> Javascript에서 객체를 만들 때 사용하는 표현식 이다
+
+* JSON 형식
+
+  * [] -> List
+  * {} -> 객체
+        -> "" -> 문자열
+        -> ""없으면 -> 숫자
+
+* Json Response
+
+  ```json
+  [
+      {
+          "id": 1,                -> 문서에 써있다
+          "name": "홍길동",
+          "age": 20,
+          "intro": "나는 홍길동이다!"
+      },
+      {
+          "id": 2,
+          "name": "김아무개",
+          "age": 10,
+          "intro": "난 김아무개 입니다 :)"
+      }
+  ]
+  ```
+
+* Json Parsing -> Json을 코틀린이나 자바가 이해할수 있게 변형 하는 과정
+
+* Serializable (직렬화)
+  ----------------------->
+    id, name, age, intro
+
+* 코틀린이나/ 자바가 이해할수 있는 틀
+
+  ```kotlin
+  class Person(
+      var id : Int? = null
+      var name : String? = null
+      var age : Int? = null
+      var intro : String? = null
+  )
+  
+  Person(1,"김아무개", 20, "안녕하세요")
+  ```
+
+* Request Type과 Status Code
+
+  | Request Type |      설명      | Status Code |
+  | :----------: | :------------: | :---------: |
+  |     GET      |   정보 요청    |   200 OK    |
+  |     POST     | 정보 추가 요청 | 201 Created |
+  |    DELETE    | 정보 삭제 요청 |             |
+  |     PUT      | 정보 수정 요청 |             |
+
+* Status Code
+
+  * 200번대 -> 처리가 잘 됬다
+
+* Library
+
+  * Volly
+  * Retrofit
 
 <br>
 
 ## Result
 
-![result](https://github.com/hyunmin0317/LOOKIE_FRONT_2021/blob/master/hyunmin/week05/homework/result.gif?raw=true)
+* Networt
+
+  ![result](https://github.com/hyunmin0317/LOOKIE_FRONT_2021/blob/master/hyunmin/week06/homework/result01.png?raw=true)
+
+* Retrofit
+
+  ![result](https://github.com/hyunmin0317/LOOKIE_FRONT_2021/blob/master/hyunmin/week06/homework/result02.PNG?raw=true)
+
+  
 
