@@ -17,3 +17,6 @@
 
 ### Week 4) 안드로이드 Fragment 실습 (~ 05.09.(일)까지)
 1. <img width="30%" src="./assignments/week4.gif"/>
+
+### Week5. 안드로이드 RecyclerView 실습 (~ 05.16.(일)까지)
+1. <img width="30%" src="./assignments/week5.gif"/>
