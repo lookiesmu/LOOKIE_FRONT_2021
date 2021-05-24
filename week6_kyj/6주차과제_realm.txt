@@ -1,0 +1,32 @@
+Realm
+
+플러그인들 가장 밑에 추가
+apply plugin: 'kotlin-kapt'
+apply plugin: 'realm-android'
+
+Realm얻기>>
+Realm.init(this@현재사용중인 액티비티이름)
+val config: REalmConfiguration = RealmConfiguration.Builder()
+	.deleteRealmIfMigrationNeeded()
+	.build()
+Realm.setDefaultConfiguration(config)
+val realm = Realm.getDefaultInstance()
+
+
+Realm사용하기>>
+open 한 클래스생성
+realm.executeTransaction{
+	//각테이블에서 데이터를 가져오고 다른테이블에 저장한다
+	with(it.createObject(클래스명::class.java)){
+		this.클래서안의내용물="설명"
+		더있으면 추가...
+	}
+}
+
+realm.executeTransaction{
+	val data = it.where(클래스명::class.java).findFirst()
+}
+
+realmexecuteTransaction{
+it.where(클래스명::class.java).findAll().deleteAllFromRealm()//전체삭제
+it.where(클래스명::class.java).findFirst().deleteFromRealm()//첫번째만삭제
