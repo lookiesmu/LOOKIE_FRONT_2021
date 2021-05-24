@@ -16,7 +16,7 @@
 
 ### [05 안드로이드 RecyclerView 실습](https://github.com/hyunmin0317/LOOKIE_FRONT_2021/blob/master/hyunmin/week05/week05.md)
 
-### [06 안드로이드 Network 실습](https://github.com/hyunmin0317/LOOKIE_FRONT_2021/blob/master/hyunmin/week05/week06.md)
+### [06 안드로이드 Network 실습](https://github.com/hyunmin0317/LOOKIE_FRONT_2021/blob/master/hyunmin/week06/week06.md)
 
 ### 07 OkHttp()에 대하여 알아보자.
 
