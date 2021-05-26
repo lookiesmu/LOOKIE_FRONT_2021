@@ -1,0 +1,43 @@
+네트워크
+
+->통신
+
+database <--->server<---->client(app,web,..)
+
+local database 의 한계
+-동기화가 어렵다
+-상호작용이 불가능 (예:댓글)
+
+서버와 통신하는 방법
+-해당 url로 요청한다
+-인증정보를 보낸다
+-JSON 형식을 사용해서 data를 보낸다
+-JavaScript Object Notation ->js에서 객체를 만들때 사용하는 표현식이다
+
+json 형식
+- [] -> list
+- {} -> 객체
+	- "" 는 문자열
+	- "" 없으면 숫자
+타입이 스트링과 스트링이 아닌것 둘밖에 없음
+자세한 사항은 각 api 문서에 써있음
+
+json parsing
+-json을 코틀린이나 자바가 이해할수 있게 변형하는 과정
+
+serializable (직렬화)
+-자바 시스템 내부에서 사용되는 object를 외부에서 사용할수 있도록 byte형태로 바꾸는것
+-json을 가져와서 class로 만들기
+
+request type
+-GET ->정보 요청	->200 ok
+-POST ->정보 추가 요철  ->201 Created
+-DELETE ->정보 삭제 요청
+-PUT ->정보 수정 요청
+ 
+status code
+-200번대는 처리가 잘됐다는 뜻
+
+library
+-volly
+-retrofit

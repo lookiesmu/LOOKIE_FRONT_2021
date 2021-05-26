@@ -1,0 +1,29 @@
+Async
+
+비동기 -> Async
+동기 -> Sync
+
+동기방식
+	-작업을 순서대로 진행한다
+	-a -> b -> c -> d
+	-위에서부터 아래로 실행
+
+비동기 방식
+	-쓰레드를 만들어서 작업을 따로 처리한다
+
+안드로이드에서 async 다루는 방법
+	-AsyncTask상송받는다
+	 ->onPreExecute : 쓰레드 출발하기전에 할 작업
+	 ->doIntBackground : 쓰레드가 할 작업
+	 ->onPregressUpdate : 작업 중간중간에 mainTread로 온다(잘사용안함)
+	 ->onPostExecute : 작업을 다 마친후 MainThread로 보낸다
+
+Async의 장점
+	-Main Thread를 기다리게 할 필요가 없다
+	-네트워크 작업할때 많이씀
+	
+Async의 단점
+	-재사용 불가능
+	-구현된 액티비티가 종료될경우 ㄷ따라서 종료되지 않는다
+
+
