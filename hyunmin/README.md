@@ -18,5 +18,5 @@
 
 ### [06 안드로이드 Network 실습](https://github.com/hyunmin0317/LOOKIE_FRONT_2021/blob/master/hyunmin/week06/week06.md)
 
-### 07 OkHttp()에 대하여 알아보자.
+### [07 OkHttp()에 대하여 알아보자.](https://github.com/hyunmin0317/LOOKIE_FRONT_2021/blob/master/hyunmin/week07/week07.md)
 
