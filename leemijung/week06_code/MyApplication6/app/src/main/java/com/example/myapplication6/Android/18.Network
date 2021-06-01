@@ -1,0 +1,63 @@
+
+
+
+네트워크
+-> 통신
+
+DataBase <----> server <----> Client(app, web ...)
+   글                            A
+   댓글                           B
+
+Local DataBase 의 한계
+- 동기화가 어렵다
+- 상호작용이 불가능 하다
+
+==>Local DataBase 의 한계때문에 서버가 필요하다
+
+서버와 통신하는 방법
+    - 해당 URL 로 요청한다
+    - 인증 정보를 보낸다
+    - JCON 형식을 사용하여 data를 보낸다.
+    -  JavaScript Object, Notation -> Javascript 에서 객체를 만들때 사용하는 표현식이다
+
+JSON 형식
+- [] -> List
+- {} -> 객체
+    -> "" -> 문자열
+    -> "" 없으면 -> 숫자
+
+JSON Response
+[
+    {
+        "id": 1,
+        "name": "홍길동",
+        "age": 20,
+        "intro": "나는 홍길동이다!"
+    },
+    {
+        "id": 2,
+        "name": "김아무개",
+        "age": 10,
+        "intro": "난 김아무개 입니다 :)"
+    }
+]
+
+JSON Parsing -> JSON을 코틀린이라 자바가 이해할 수 있게 변형하는 과정
+Serializable(직렬화) ->
+
+
+
+request type                status food
+- GET   -> 정보 요청        ->201 OK
+- POST  -> 정보 추가 요청    ->20번 이상
+- DELETE -> 정보 작세 요청
+- PUT    -> 정보 수정 요청
+
+Status code
+- 200번대 -> 처리가 잘 됬다
+
+
+
+Library
+- Volly
+- Retrofit

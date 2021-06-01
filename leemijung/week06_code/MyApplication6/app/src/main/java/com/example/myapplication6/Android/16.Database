@@ -1,0 +1,36 @@
+
+
+//데이터 베이스
+
+- 데이터를 저장하기 위함
+
+데이터 저장방식
+- RDB (Relational Database)
+    -관계형 데이터 베이스
+    -엑셀 처럼 생겼다
+
+- key-Value
+    -쌍으로 저장하는 방식 (키, value)
+
+
+- RDBMS
+    - Relational Database Management system
+    - RDB를 관리하기 위한 툴
+    - MySQL
+    - Oracle
+    - PostgreSQL
+
+- SQL
+    - RDBMS를 위한 언어이다.
+
+- NoSQL : key-value 방식
+    - SQL 말고 다르게 해보자!
+
+
+안드로이드 데이터베이스
+-SQLiteDatabase
+-SharedPreference
+    - 목적: 공유된 사용자의 기호를 저장하기 위한 데이터베이스
+    - key-value 방식
+    - 하드하게 데이터베이스 시스템을 구축 할 수 없다!
+    
